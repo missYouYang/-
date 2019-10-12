@@ -4,39 +4,46 @@ function u_register() {
     var userPhone = $("#userPhone").val();
     var userSex = $('input[name="sex"]:checked').val();
     var data = new FormData();
-
+    var fag= true;
    if(userName != null && userName != ''){
+
+       $("#error_userName").html("");
        data.append("userName",userName);
    }else{
        $("#error_userName").html("<a style='color: #f10215'>*</a>用户名不能为空");
+       fag =false;
    }
 
     if(userPassword != null && userPassword != ''){
         data.append("userPassword",userPassword);
+        $("#error_upserPassword").html("")
     }else{
         $("#error_upserPassword").html("<a style='color: #f10215'>*</a>密码不能为空")
+        fag =false;
     }
 
     if(userPhone != null && userPhone != ''){
         data.append("userPhone",userPhone);
+        $("#error_upserPhone").html("")
     }else{
         $("#error_upserPhone").html("<a style='color: #f10215'>*</a>密码不能为空")
+        fag =false;
     }
     data.append("userSex",userSex);
-/*cache属性，默认是 true ，就是页面需要缓存。有些时候修改了值，但是值没变，都是由于缓存的原因。ajax 请求存在着许多缓存问题。请求方式为 post 的时候，默认为 false ；请求方式为 get 的时候，默认为 true 。
-async属性，默认是 true，决定本次执行的 ajax 请求是异步的。同步指的是：像后台代码一样，一行一行的执行。异步指的是：ajax 请求还没有执行完成就去执行下一句 js 。*/
-    $.ajax({
-        url:"localhost:8080/SSMDemo/user/userLogin",
-        type:"post",
-        async:false,
-        data:{
+   console.log(data.get("userSex"));
+/*    if(fag ==true){
+        $.ajax({
+            url:"localhost:8080/SSMDemo/user/userLogin",
+            type:"post",
+            async:false,
+            data:data,
+            success:function (data) {
+                console.log(data)
+            },
+            error:function () {
+                alert("网络错误")
+            }
+        })
+    }*/
 
-        },
-        success:function (data) {
-            console.log(data)
-        },
-        error:function () {
-            alert("网络错误")
-        }
-    })
 }
