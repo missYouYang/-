@@ -1,0 +1,54 @@
+/*左侧部分*/
+.left {
+    width: 180px;
+    height: 100%;
+    background-color: #1f232b;
+    left: 0;
+    top: 0;
+    z-index: 110; /*级别大于头部分*/
+    padding-top: 6px;
+    position: fixed; /*根据窗口定位*/
+}
+
+/*绿水商城*/
+.left .left_top {
+    text-align: center;
+    color: #00ba4e;
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+    background: url(../images/home/left_top.png) no-repeat center bottom;
+}
+
+/*商城log*/
+.logo {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -2px;
+    background: url(../images/home/logo.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+/*导航*/
+.left .nav_title {
+    height: 36px;
+    line-height: 36px;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: #4a4d53;
+    font-size: 14px;
+}
+
+/*列表*/
+.nav .section h3 {
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    padding-left: 51px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: normal;
+}

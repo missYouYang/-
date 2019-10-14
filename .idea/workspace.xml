@@ -2,96 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947b2d50-18d1-4849-92ca-4bf6652c8fa0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/common.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/header.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/_del/_pro_small1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/_del/_pro_small2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/_del/car1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/_del/cars1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/_del/map.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/_del/map_wz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/_del/sfz1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/_del/sfzs1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/down.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/h_down.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/home1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/home2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/home3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/home4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/home5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/home6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/home7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/icon_log1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/icon_log2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/icon_log3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/icon_log4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/icon_log5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/icon_log6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/icon_r.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/left_top.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav1_on.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav2_on.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav3_on.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav4_on.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav5_on.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/nav6_on.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/up.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/empty.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_car.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_err.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_export.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_info.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_seled.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_th.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_upload.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/icon_wuliu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/map1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/map2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/map3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/map4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/right.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/triangle_l.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/triangle_r.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/终点.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/icon/起点.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/btn1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/btn2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/btn3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/btn4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/calendar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/empty.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/icon_sort2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/icon_sort3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/public/select.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/css/bootstrap-multiselect.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/css/bootstrap-slider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/css/bootstrap-tagsinput.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/js/bootstrap-multiselect.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/js/bootstrap-slider.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/js/bootstrap-tagsinput.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/js/bootstrap3-typeahead.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/js/bstime.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap/js/datepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/datepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/left.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/daterangepicker/daterangepicker.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/daterangepicker/daterangepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/daterangepicker/moment.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" afterPath="$PROJECT_DIR$/css/header.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -105,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/header.css">
+      <file leaf-file-name="left.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/left.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="744">
+              <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -118,8 +37,8 @@
       <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="57" column="3" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="58" selection-end-column="1" />
+            <state relative-caret-position="343">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -128,10 +47,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="-1731">
+              <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="27" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +78,7 @@
       <find>register_td_i</find>
       <find>a</find>
       <find>register_td_t</find>
+      <find>left_top</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,9 +93,10 @@
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/css/hean.css" />
         <option value="$PROJECT_DIR$/js/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/css/header.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/left.css" />
       </list>
     </option>
   </component>
@@ -206,8 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,10 +144,29 @@
               <item name="htmlMagement" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="htmlMagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlMagement" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htmlMagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlMagement" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="daterangepicker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htmlMagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlMagement" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,13 +178,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\htmlworkspace\htmlMagement" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\htmlWorkSpace\htmlMagement\css" />
+      <recent name="D:\htmlWorkSpace\htmlMagement\js" />
       <recent name="D:\htmlworkspace\htmlMagement\images" />
       <recent name="D:\htmlworkspace\htmlMagement\images\font" />
       <recent name="D:\htmlworkspace\htmlMagement\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\htmlworkspace\htmlMagement" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -278,6 +218,7 @@
       <workItem from="1570842286127" duration="6031000" />
       <workItem from="1571014015798" duration="799000" />
       <workItem from="1571024104908" duration="10629000" />
+      <workItem from="1571062483039" duration="4673000" />
     </task>
     <task id="LOCAL-00001" summary="注册ajax提交">
       <created>1570846994153</created>
@@ -297,12 +238,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31858000" />
+    <option name="totallyTimeSpent" value="36531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22075869" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -337,6 +278,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" column="3" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="58" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -349,7 +316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="32" column="119" lean-forward="false" selection-start-line="32" selection-start-column="111" selection-end-line="32" selection-end-column="119" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -365,11 +331,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <marker date="1570848240766" expanded="true" signature="440:454" ph="..." />
-            <marker date="1570848240766" expanded="true" signature="703:717" ph="..." />
-            <marker date="1570848240766" expanded="true" signature="948:962" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -393,11 +355,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <marker date="1570848240766" expanded="true" signature="440:454" ph="..." />
-            <marker date="1570848240766" expanded="true" signature="703:717" ph="..." />
-            <marker date="1570848240766" expanded="true" signature="948:962" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -421,7 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,7 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="76" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -461,18 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <marker date="1570848240766" expanded="true" signature="440:454" ph="..." />
-            <marker date="1570848240766" expanded="true" signature="703:717" ph="..." />
-            <marker date="1570848240766" expanded="true" signature="948:962" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="93" lean-forward="false" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="93" />
           <folding />
         </state>
       </provider>
@@ -481,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -489,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,7 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32">
           <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,28 +458,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="33" column="93" lean-forward="false" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="93" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.css">
+    <entry file="file://$PROJECT_DIR$/js/daterangepicker/moment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="57" column="3" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/datepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="719">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1731">
+          <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/left.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
           <folding />
         </state>
       </provider>
