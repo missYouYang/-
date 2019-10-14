@@ -1,0 +1,59 @@
+/*版心*/
+
+/*.w {
+    width: 1190px;
+    margin: 0 auto;
+}*/
+/*左右浮动*/
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/*左右浮动0*/
+.l0 {
+    left: 0;
+}
+.r0 {
+    right: 0;
+}
+a {
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+}
+.f10 {
+    color: #f10215 !important;
+}
+
+.fontFam{
+    font-family: 楷体;
+}
+/*清除内外边距还有*/
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul
+{
+    margin: 0;
+    padding: 0;
+}
+input,button {
+    /*复合属性。设置或检索对象外的线条轮廓。outline画在border外面 */
+    outline: none;/*取消轮框边框*/
+    border: 0;
+}
+ul {
+    list-style: none;
+
+}
+body {
+    background-color: #f6f6f6;
+}
+
+*{
+    box-sizing:border-box;
+/*
+为元素设定的宽度和高度决定了元素的边框盒。
+就是说，为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制。
+通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度。*/
+}
