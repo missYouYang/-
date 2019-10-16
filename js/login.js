@@ -1,6 +1,6 @@
 function user_login () {
     var userName = $("#userName").val();
-
+    $("#login_error").text("");
     if($("#userName").val() == null || $("#userName").val() == ''){
         $("#username_error").text("用户名不能为空");
         return false;
@@ -14,4 +14,5 @@ function user_login () {
     }else {
         $("#password_error").text("");
     }
+
 }
