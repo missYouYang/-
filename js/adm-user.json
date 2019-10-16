@@ -1,0 +1,101 @@
+[
+  {
+    "id": 2018100701,
+    "username": "user1",
+    "fullname": "用户1",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100702,
+    "username": "user2",
+    "fullname": "用户2",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100703,
+    "username": "user3",
+    "fullname": "用户3",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100704,
+    "username": "user4",
+    "fullname": "用户4",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100705,
+    "username": "user5",
+    "fullname": "用户5",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100706,
+    "username": "user6",
+    "fullname": "用户6",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100707,
+    "username": "user7",
+    "fullname": "用户7",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100708,
+    "username": "user8",
+    "fullname": "用户8",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100709,
+    "username": "user9",
+    "fullname": "用户9",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100710,
+    "username": "user10",
+    "fullname": "用户10",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  },
+  {
+    "id": 2018100711,
+    "username": "user11",
+    "fullname": "用户11",
+    "status": "启用",
+    "availableSpace": "10GB",
+    "totalSpace": "20GB",
+    "storageServer" : "nas1"
+  }
+]
