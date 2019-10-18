@@ -19,7 +19,10 @@
   /*  background: #91ffc5;*/
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
+}
+.body .body_top_l button:last-child{
+    margin-left: 10px;
 }
 .body .body_top_l .btn_search .body_top-l-i{
     margin-right: 10px;
@@ -47,7 +50,7 @@
     /*background: #fff14b;*/
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 10px;
 }
 /*左侧搜索*/
 .body_top_r .body_solr{
@@ -128,21 +131,27 @@
 
 /*头部标题*/
 .body .body_top .body_title{
-    background: red;
+    background: #ffffff;
     width: 100%;
     height: 80px;
     position: relative;
+    top: 23px;
 }
 
 .body .body_top .body_title .body_title_font{
     width: 8%;
     height: 50px;
-    background: #7bff82;
+  /*  background: #7bff82;*/
     position: absolute;
     left: 10px;
     top: 20px;
 }
-
+.body .body_top .body_title .body_title_font div{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    color: #0ce450;
+}
 /*抽出背景颜色*/
 b_red{
 
