@@ -72,3 +72,14 @@ function operateFormatter (value, row, index) {
     return result;
 }
 
+/*按钮的操作 清空input*/
+function btn_empty() {
+    $(".body_solr .body_name").val("");
+}
+
+function btn_search() {
+
+    console.log($("input[name='userName']").val());
+    console.log($("input[name='userTel']").val());
+}
+/*点击按钮搜索*/
