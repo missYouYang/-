@@ -47,21 +47,6 @@ $('#table').bootstrapTable({
     ],
 });
 
-//自定义字体颜色，或者背景颜色
-/*
-rowStyle: function (row, index) {
-    var style = {};
-    style={css:{'color':'#ed5565'}};
-    return style;
-}
-*/
-
-
-/*function operateFormatter (value, row, index) {
-    var result = '<button class="btn  btn-action" title="激活USBKEY认证" onclick=""><i class="glyphicon glyphicon-pencil"></i></button>'
-    return result;
-}*/
-
 /*按钮的操作 清空input*/
 function btn_empty() {
     $(".body_name").val("");

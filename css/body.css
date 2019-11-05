@@ -93,7 +93,7 @@
 .body .body_top_r .body_buton .btn_search{
     width: 84px;
     height: 32px;
-    border-radius: 7px;
+    border-radius: 5px;
     margin-left: 10px;
     background: rgba(234, 16, 16, 1);
     color: rgba(255,255,255,1);
@@ -105,7 +105,7 @@
 .body .body_top_r .body_buton .btn_empty{
     width: 84px;
     height: 32px;
-    border-radius: 7px;
+    border-radius: 5px;
     margin-left: 10px;
     background: rgb(127, 125, 125);
     color: rgba(255,255,255,1);
