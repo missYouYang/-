@@ -26,7 +26,7 @@ function u_register() {
         data.append("userPhone",userPhone);
         $("#error_upserPhone").html("")
     }else{
-        $("#error_upserPhone").html("<a style='color: #f10215'>*</a>密码不能为空")
+        $("#error_upserPhone").html("<a style='color: #f10215'>*</a>手机号不能为空")
         fag =false;
     }
     data.append("userSex",userSex);

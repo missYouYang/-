@@ -4,10 +4,12 @@
     width: 1190px;
     margin: 0 auto;
 }
+
 /*左右浮动*/
 .fl {
     float: left;
 }
+
 .fr {
     float: right;
 }
@@ -16,57 +18,64 @@
 .l0 {
     left: 0;
 }
+
 .r0 {
     right: 0;
 }
+
 a {
     text-decoration: none;
     color: #999;
     font-size: 13px;
 }
+
 .f10 {
     color: #f10215 !important;
 }
 
-.fontFam{
+.fontFam {
     font-family: 楷体;
 }
+
 /*清除内外边距还有*/
-blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul
-{
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
     margin: 0;
     padding: 0;
 }
-input,button {
+
+input, button {
     /*复合属性。设置或检索对象外的线条轮廓。outline画在border外面 */
-    outline: none;/*取消轮框边框*/
+    outline: none; /*取消轮框边框*/
     border: 0;
 }
+
 ul {
     list-style: none;
 
 }
+
 body {
     background-color: #f6f6f6;
 }
 
 /*页面开始*/
-.register-1{
+.register-1 {
     background: url("../images/jun.jpg") no-repeat;
-    background-size: 100% 100%;/*如果提供两个，第一个用于定义背景图像的宽度，第二个用于定义背景图像的高度。*/
+    background-size: 100% 100%; /*如果提供两个，第一个用于定义背景图像的宽度，第二个用于定义背景图像的高度。*/
     position: relative;
     height: 950px;
 }
 
 /*注册的整体*/
 .register {
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     width: 500px;
-   /* height: 700px;*/
+    /* height: 700px;*/
     position: absolute;
     right: 200px;
     bottom: 225px;
 }
+
 /*欢迎注册*/
 .register_welcome {
     font-family: 楷体;
@@ -76,56 +85,64 @@ body {
     text-align: center;
     margin: 0 auto;
     font-size: 59px;
-  /*  background-color: red;*/
+    /*  background-color: red;*/
 }
 
 /*注册信息面板*/
 .register_user {
-  /*  background: yellow;*/
+    /*  background: yellow;*/
     height: 375px;
 }
+
 /*信息头*/
-.register_td_t{
+.register_td_t {
     font-size: 16px;
     color: #6b5656;
 }
+
 /*input*/
-.register_td_i{
+.register_td_i {
     height: 27px;
     width: 274px;
-    border: 1px solid rgb(224, 201, 32);;
-;
+    border: 1px solid rgb(224, 201, 32);
+    border-radius: 2px;
     padding-left: 5px;
 }
+
 /*调整2个字体位置*/
-.register_divf2{
+.register_divf2 {
     margin-left: 16px;
 }
-.register_tr{
-  /*  background: yellow;*/
+
+.register_tr {
+    /*  background: yellow;*/
     margin-top: 30px;
     display: block;
     margin-left: 10px;
 }
+
 /*报错信息*/
-.error_mage{
+.error_mage {
     margin-left: 8px;
     color: red;
 }
-.register_tr_spanb{
+
+.register_tr_spanb {
     margin-right: 5px;
 }
-.register_tr_spang{
+
+.register_tr_spang {
     margin-left: 10px;
     margin-right: 5px;
 }
 
 /*注册*/
 
-.register_b{
+.register_b {
     text-align: center;
 }
-.register_button{
+
+.register_button {
     margin-top: 30px;
     height: 46px;
     width: 300px;
@@ -134,9 +151,10 @@ body {
     line-height: 46px;
     font-size: 14px;
     display: inline-block;
-    background-color:rgba(234, 211, 41, 1);
+    background-color: rgba(234, 211, 41, 1);
     transition: all 0.75s ease;
 }
-.register_button:hover{
-    background-color: rgba(0,0,0,0.1);
+
+.register_button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }

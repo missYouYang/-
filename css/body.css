@@ -151,13 +151,59 @@
     text-align: center;
     color: #0ce450;
 }
-/*抽出背景颜色*/
-b_red{
 
+/*行间色*/
+.table tbody tr:nth-of-type(n):hover {
+    background:  #0ce450 !important;
+}
+.table tbody tr:nth-of-type(2n-1) {
+    background: #FFF;
+}
+.table tbody .selected {
+    background: rgba(12, 228, 80,0.6) !important;
 }
 
-.b_yellow{
-
+/*分页设置*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background: rgba(12, 228, 80, 1) !important;
+    border-color: rgba(12, 228, 80, 1) !important;
 }
 
-.b_green
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    color:  rgba(12, 228, 80, 1);
+}
+
+.pagination>li>a{
+    color:  rgba(12, 228, 80, 1);
+}
+
+/*选择页面下拉框*/
+/*
+.table .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    background: rgba(12, 228, 80, 1) !important;
+}
+*/
+
+
+.dropdown-menu>.active>a{
+    background-color: rgba(12, 228, 80, 0.6);
+    color: white;
+}
+.dropdown-menu>li>a{
+    color: rgba(12, 228, 80, 1);
+}
+.dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    background-color: rgba(12, 228, 80, 1);
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    background-color: rgba(12, 228, 80, 1);
+    color:white;
+}
+.dropdown-menu{
+    width: 60px;
+    min-width: 0px;
+}
+/*.dropdown-menu>li>a {
+    background-color: rgba(12, 228, 80, 1) !important;
+}*/
+/**/

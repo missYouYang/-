@@ -231,7 +231,7 @@
 /*列表字体*/
 .nav .h3 a{
     /*  color: #fff;*/
-    display: block;
+   /* display: block;*/
     width: 100%;
     height: 50px;
     line-height: 50px;
@@ -239,13 +239,16 @@
     font-weight: normal;
     color: #a5a7aa;
 }
-/*列表开*/
-.nav .section h3 .icon_up {
-    background-image: url(../images/home/up.png);
-}
+
 /*列表闭合*/
 .nav .section h3 .icon_down {
     background-image: url(../images/home/down.png);
+}
+
+
+/*列表开*/
+.nav .section h3 .icon_up {
+    background-image: url(../images/home/up.png);
 }
 
 /*列表开闭*/

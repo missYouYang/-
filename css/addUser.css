@@ -1,0 +1,44 @@
+.add_user{
+    background: yellow;
+    width: 1000px;
+    height: 50px;
+}
+
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 500px;
+    }
+}
+
+/*input*/
+.register_td_i{
+    height: 27px;
+    width: 274px;
+    border: 1px solid rgb(224, 201, 32);
+    padding-left: 5px;
+    border-radius: 2px;
+}
+/*调整2个字体位置*/
+.register_divf2{
+    margin-left: 16px;
+}
+
+.register_tr{
+    /*  background: yellow;*/
+    margin-top: 30px;
+    display: block;
+    margin-left: 10px;
+}
+/*报错信息*/
+.error_mage{
+    margin-left: 8px;
+    color: red;
+}
+.register_tr_spanb{
+    margin-right: 5px;
+}
+.register_tr_spang{
+    margin-left: 10px;
+    margin-right: 5px;
+}
