@@ -68,6 +68,32 @@ body {
     top:120px;
 }
 
+/*模态框按钮 1 取消 2 确认*/
+.modal-footer button:nth-child(1){
+    background: white;
+    color: #383333;
+}
+
+.modal-footer button:nth-child(2){
+    background: rgba(12, 228, 80, 1);
+    color: white;
+}
+
+/*
+.modal-footer button{
+    color: white !important;
+}
+*/
+
+.modal-footer button:nth-child(1):hover{
+    color: rgba(12, 228, 80, 1);
+}
+
+.modal-footer button:nth-child(2):hover{
+    background: rgba(12, 228, 80, 0.6);
+}
+
+
 /*去掉.bn 点击是外边框*/
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
     outline: 0px auto -webkit-focus-ring-color;

@@ -1,15 +1,13 @@
-$('#table').bootstrapTable({
+$('#table').bootstrapTable('destroy').bootstrapTable({
     url: 'js/adm-user.json',
-    method: 'POST',
+    method: 'get',
     uniqueId: 'id',                        // 绑定ID，不显示
-    showHeader:true,
-    striped: true,                         //是否显示行间隔色
+    striped: false,                         //是否显示行间隔色
     cache: false,                          //是否使用缓存，默认为true，所以一般情况下需要设置一下这个属性（*）
     sortable: true,                        //是否启用排序
     sortOrder: "asc",                      //排序方式
     sidePagination: "client",              //分页方式：client客户端分页，server服务端分页（*）
     undefinedText: '--',
-    toolbar: '#item_info_toolbar',         // 搜索框位置
     clickToSelect: true,                   // 点击选中行
     pagination: true,                      //是否显示分页
     pageNumber:1,                          //初始化加载第一页，默认第一页,并记录
@@ -18,35 +16,57 @@ $('#table').bootstrapTable({
     paginationPreText:"上一页",
     paginationNextText:"下一页",
     paginationLoop:false,
-    height:491,
+    height:471  ,
     data_local: "zh-US",
-
+    showHeader:true,
+    queryParams : function (params) {
+        var temp = {
+            rows: params.limit,                         //页面大小
+            page: (params.offset / params.limit) + 1,   //页码
+            sort: params.sort,      //排序列名
+            sortOrder: params.order,//排位命令（desc，asc）
+        }
+        return temp;
+    },
     columns: [
         {
-            checkbox: true
+            checkbox: true,
+            width:50
         },{
-            field: 'username',
+            field: 'userPassword',
+            title: '姓名',
+            align: 'center',
+            colspan: 1,
+            width:100
+
+        },
+        {
+            field: 'userName',
             title:'用户名',
-            valign: 'middle',
-            width: '16%',
-            sortable: true
+            align: 'center',
+            colspan: 1,
+            width:100
         },{
-            field: 'fullname',
-            title:'姓名',
-            width: '16%'
+            field: 'userSex',
+            title:'性别',
+            align: 'center',
+            colspan: 1,
+            width:100
         },{
-            field: 'status',
-            title:'密码认证',
-            width: '16%'
+            field: 'userPhone',
+            title:'电话号码',
+            align: 'center',
+            colspan: 1,
+            width:100
         },{
-            field: 'availableSpace',
-            title:'智能卡认证',
-            valign: 'middle',
-            width: '16%'
+            field: 'createUser',
+            title:'创建者',
+            align: 'center',
+            colspan: 1,
+            width:100
         }
     ],
 });
-
 /*按钮的操作 清空input*/
 function btn_empty() {
     $(".body_name").val("");
@@ -70,6 +90,9 @@ $(function(){
     //删除用户
     $('#del_user').off('click');
     $('#del_user').on('click',function(){
+
+        $('#del_common').modal('show');
+
         var a = $('#table').bootstrapTable('getSelections');//获取选择行数据
         for (var i = 0; i < a.length; i++) {//循环读取选中行数据
             mycars[i] = a[i].id;//获取选择行的值

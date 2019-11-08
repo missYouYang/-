@@ -151,6 +151,9 @@
     text-align: center;
     color: #0ce450;
 }
+.body .bootstrap-table {
+    margin-top: 20px;
+}
 
 /*行间色*/
 .table tbody tr:nth-of-type(n):hover {
