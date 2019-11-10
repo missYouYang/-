@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/home.css" type="text/css">
     <link rel="stylesheet" href="css/addUser.css" type="text/css">
     <link href="js/bootstrap/css/bootstrap-table.css" rel="stylesheet"/>
+    <link href="css/pages/bs4.pop.css" rel="stylesheet"/>
     <link rel="import" href="common.html" id="common"/>
     <!---->
 </head>
@@ -194,7 +195,7 @@
                 <button class="btn btn_search" type="button" onclick="btn_search()">
                     <span>确认</span>
                 </button>
-                <button class="btn btn_empty" type="button" onclick="btn_empty()">
+                <button class="btn btn_empty" type="button" onclick="bs4pop.notice('这个是消息内容', {position: 'topleft'})">
                     <span>清空</span>
                 </button>
             </div>
@@ -290,6 +291,7 @@
 <script src="js/index.js" type="text/javascript"></script>
 <script src="js/bootstrap/js/bootstrap-table.js" type="text/javascript"></script>
 <script src="js/bootstrap/js/bootstrap-table-zh-CN.js" type="text/javascript"></script>
+<script src="js/bs4/bs4.pop.js" type="text/javascript"></script>
 <script src="js/user.js" type="text/javascript"></script>
 <script src="js/common.js" type="text/javascript"></script>
 </body>

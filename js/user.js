@@ -81,6 +81,14 @@ function btn_search() {
 /*添加弹出框*/
 $(function(){
 
+
+/*
+     $('#del_user').off('click');
+     $('#del_user').on('click',function(){
+         bs4pop.notice('这个是消息内容', {position: 'topleft'})
+     });
+*/
+
     //添加用户
     $('#add_user').off('click');
     $('#add_user').on('click',function(){
@@ -88,17 +96,19 @@ $(function(){
     });
     var mycars = new Array()
     //删除用户
-    $('#del_user').off('click');
+/*    $('#del_user').off('click');
     $('#del_user').on('click',function(){
 
         $('#del_common').modal('show');
+        $('#del_common_true').on('click',function(){
+            var a = $('#table').bootstrapTable('getSelections');//获取选择行数据
+            for (var i = 0; i < a.length; i++) {//循环读取选中行数据
+                mycars[i] = a[i].id;//获取选择行的值
+            }
+            $('#del_common').modal('hide');
+        });
 
-        var a = $('#table').bootstrapTable('getSelections');//获取选择行数据
-        for (var i = 0; i < a.length; i++) {//循环读取选中行数据
-            mycars[i] = a[i].id;//获取选择行的值
-        }
-        console.log(mycars);
-    });
+    });*/
     //添加用户确认
     $("#submitAddUser").off("click");
     $("#submitAddUser").on("click",function(){
