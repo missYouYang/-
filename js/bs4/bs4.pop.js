@@ -411,8 +411,7 @@ let bs4pop = {};
 
 		setTimeout(() => {
 			$el.addClass('show');
-		}, 50);
-		
+		}, 200);
 		return;
 
 	};

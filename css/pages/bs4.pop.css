@@ -17,7 +17,13 @@
 }
 
 #alert-container-topcenter{
-	top: 10px;
+
+	transition: width 2s;
+	-moz-transition: width 2s;	/* Firefox 4 */
+	-webkit-transition: width 2s;	/* Safari 和 Chrome */
+	-o-transition: width 2s;
+
+	top: 45px;
 	left: 50%;
 	transform: translate(-50%, 0);
 }

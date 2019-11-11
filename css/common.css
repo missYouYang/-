@@ -79,12 +79,6 @@ body {
     color: white;
 }
 
-/*
-.modal-footer button{
-    color: white !important;
-}
-*/
-
 .modal-footer button:nth-child(1):hover{
     color: rgba(12, 228, 80, 1);
 }

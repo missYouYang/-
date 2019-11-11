@@ -91,16 +91,18 @@ $(function(){
     //删除用户
     $('#del_user').off('click');
     $('#del_user').on('click',function(){
-
-        $('#del_common').modal('show');
-        $('#del_common_true').on('click',function(){
-            var a = $('#table').bootstrapTable('getSelections');//获取选择行数据
-            for (var i = 0; i < a.length; i++) {//循环读取选中行数据
-                mycars[i] = a[i].id;//获取选择行的值
-            }
-            $('#del_common').modal('hide');
-        });
-
+        var a = $('#table').bootstrapTable('getSelections');//获取选择行数据
+        for (var i = 0; i < a.length; i++) {//循环读取选中行数据
+            mycars[i] = a[i].id;//获取选择行的值
+        }
+        if(mycars.length == 0){
+            bs4pop.notice('请选择一行数据', {position: 'topcenter'})
+        }else{
+            $('#del_common').modal('show');
+            $('#del_common_true').on('click',function(){
+                $('#del_common').modal('hide');
+            });
+        }
     });
     //添加用户确认
     $("#submitAddUser").off("click");
