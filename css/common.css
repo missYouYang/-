@@ -98,3 +98,10 @@ body {
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
     outline: 0px auto -webkit-focus-ring-color;
 }
+
+/*消息弹出框*/
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}

@@ -82,13 +82,6 @@ function btn_search() {
 $(function(){
 
 
-/*
-     $('#del_user').off('click');
-     $('#del_user').on('click',function(){
-         bs4pop.notice('这个是消息内容', {position: 'topleft'})
-     });
-*/
-
     //添加用户
     $('#add_user').off('click');
     $('#add_user').on('click',function(){
@@ -96,7 +89,7 @@ $(function(){
     });
     var mycars = new Array()
     //删除用户
-/*    $('#del_user').off('click');
+    $('#del_user').off('click');
     $('#del_user').on('click',function(){
 
         $('#del_common').modal('show');
@@ -108,7 +101,7 @@ $(function(){
             $('#del_common').modal('hide');
         });
 
-    });*/
+    });
     //添加用户确认
     $("#submitAddUser").off("click");
     $("#submitAddUser").on("click",function(){

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>后台管理系统</title>
     <link href="js/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/pages/bs4.pop.css" rel="stylesheet"/>
     <link href="js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" rel="stylesheet"/>
     <link href="js/daterangepicker/daterangepicker.min.css" rel="stylesheet"/>
     <link href="css/datepicker.css" rel="stylesheet"/>
@@ -12,7 +13,6 @@
     <link rel="stylesheet" href="css/home.css" type="text/css">
     <link rel="stylesheet" href="css/addUser.css" type="text/css">
     <link href="js/bootstrap/css/bootstrap-table.css" rel="stylesheet"/>
-    <link href="css/pages/bs4.pop.css" rel="stylesheet"/>
     <link rel="import" href="common.html" id="common"/>
     <!---->
 </head>
@@ -173,10 +173,10 @@
         </div>
         <!--左 添加 删除按钮-->
         <div class="body_top_l">
-            <button class="btn btn_search" id="add_user" type="button">
+            <button class="btn btn_search" id="add_user" type="button" >
                 <i class="glyphicon glyphicon-plus body_top-l-i"></i><span>添加用户</span>
             </button>
-            <button class="btn btn_search" id="del_user" type="button">
+            <button class="btn btn_search" id="del_user" type="button" >
                 <i class="glyphicon glyphicon-trash body_top-l-i"></i><span>删除用户</span>
             </button>
         </div>
@@ -195,7 +195,7 @@
                 <button class="btn btn_search" type="button" onclick="btn_search()">
                     <span>确认</span>
                 </button>
-                <button class="btn btn_empty" type="button" onclick="bs4pop.notice('这个是消息内容', {position: 'topleft'})">
+                <button class="btn btn_empty" type="button" >
                     <span>清空</span>
                 </button>
             </div>
@@ -284,6 +284,7 @@
 
 <script src="js/jquery/jquery-3.4.1.js" type="text/javascript"></script>
 <script src="js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
 <script src="js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" type="text/javascript"></script>
 <script src="js/daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
 <script src="js/bootstrap/js/datepicker.js" type="text/javascript"></script>
@@ -291,7 +292,7 @@
 <script src="js/index.js" type="text/javascript"></script>
 <script src="js/bootstrap/js/bootstrap-table.js" type="text/javascript"></script>
 <script src="js/bootstrap/js/bootstrap-table-zh-CN.js" type="text/javascript"></script>
-<script src="js/bs4/bs4.pop.js" type="text/javascript"></script>
+<!--<script src="js/bs4/bs4.pop.js" type="text/javascript"></script>-->
 <script src="js/user.js" type="text/javascript"></script>
 <script src="js/common.js" type="text/javascript"></script>
 </body>
