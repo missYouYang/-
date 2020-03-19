@@ -36,13 +36,13 @@ let bs4pop = {};
         }
 
         //定时关闭
- /*       if(opts.autoClose){
+        if(opts.autoClose){
 
             let t = setTimeout(() => {
                 $el.alert('close');
             }, opts.autoClose);
 
-        }*/
+        }
         opts.appendType === 'append' ? $container.append($el) : $container.prepend($el);
 
         setTimeout(() => {
