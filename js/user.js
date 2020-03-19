@@ -87,11 +87,15 @@ $(function(){
     $('#add_user').on('click',function(){
         $('#addUserBox').modal('show');
     });
-    var mycars = new Array()
+
     //删除用户
     $('#del_user').off('click');
-    $('#del_user').on('click',function(){
+
+    $('#del_user').unbind('click').click(function () {
+        var mycars = new Array()
         var a = $('#table').bootstrapTable('getSelections');//获取选择行数据
+        console.log(a);
+        console.log(a.length);
         for (var i = 0; i < a.length; i++) {//循环读取选中行数据
             mycars[i] = a[i].id;//获取选择行的值
         }
@@ -99,7 +103,8 @@ $(function(){
             bs4pop.notice('请选择一行数据', {position: 'topcenter'})
         }else{
             $('#del_common').modal('show');
-            $('#del_common_true').on('click',function(){
+            $('#del_common_true').unbind('click').click(function () {
+                bs4pop.notice('删除成功', {position: 'topcenter'});
                 $('#del_common').modal('hide');
             });
         }
